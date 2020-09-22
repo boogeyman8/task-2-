@@ -7,6 +7,7 @@
 
     <form action="info" method="GET">
         <!-- @csrf -->
+        @csrf
         <input type="text" name="name" placeholder="name">
         <br>
         <input type="text" name="surname" placeholder="surnmae">
